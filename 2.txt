@@ -1,0 +1,5 @@
+git checkout --ours file.txt  # 保留当前分支版本
+# 或
+git checkout --theirs file.txt  # 保留合并分支版本
+git add file.txt
+git commit
